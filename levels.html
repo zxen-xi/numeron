@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Numeron</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="game-cover flex-centered">
+    <audio id="button-click" src="./assets/pop.wav" preload="auto"></audio>
+    <a onclick="document.getElementById('button-click').play();">
+        <img id="easy" src="./assets/easy.png" alt="play-button">
+    </a>
+    <a onclick="document.getElementById('button-click').play();">
+        <img class="play" id="medium" src="./assets/medium.png" height="100px" width="280px" alt="play-button">
+    </a>
+    <a onclick="document.getElementById('button-click').play();">
+        <img class="play" id="hard" src="./assets/hard.png" alt="play-button">
+    </a>
+    <script src="./levels.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="game-cover flex-centered">
+    <img id="game-over-text" src="http://i1.faceprep.in/prograd-junior/gameover-text.png" alt="game-over" height="300px"width="200px">
+    <div id="score-box">SCORE: <span id="score-board"></span></div>
+    <audio id="button-click" src="./assets/pop.wav" preload="auto"></audio>
+    <a onclick="document.getElementById('button-click').play();">
+        <img id="play-again-button" src="http://i1.faceprep.in/prograd-junior/play-again-button.png" alt="play-again" class="play" height="170px"width="400px">
+    </a>
+    <script src="./score.js"></script>
+</body>
+
+</html>

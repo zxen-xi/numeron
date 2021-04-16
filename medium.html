@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numeron</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="game flex-centered">
+    <div id="timer" class="flex-centered"></div>
+    <div id="game-mode">GAMEMODE - MEDIUM</div>
+    <div id="instructions">Guess the Operator</div>
+    <div id="numbers">
+        <div id="number1" class="number-holder flex-centered">25</div>
+        <div>?</div>
+        <div id="number2" class="number-holder flex-centered">32</div>
+        <div>=</div>
+        <div id="number3" class="number-holder flex-centered">32</div>
+    </div>
+    <div id="buttons" class="flex-centered">
+        <audio id="button-click" src="./assets/pop.wav" preload="auto"></audio> <!--define audio element-->
+        <a onclick="document.getElementById('button-click').play();"><img src="./assets/Numeron_plus.png" alt="" id="plus"></a>
+        <a onclick="document.getElementById('button-click').play();"><img src="./assets/Numeron_minus.png" alt="" id="minus"></a>
+        <a onclick="document.getElementById('button-click').play();"><img src="./assets/Numeron_mul.png" alt="" id="mul"></a>
+        <a onclick="document.getElementById('button-click').play();"><img src="./assets/Numeron_div.png" alt="" id="divide"></a> 
+        <a onclick="document.getElementById('button-click').play();"><img src="./assets/Numeron_per.png" alt="" id="modulus"></a>
+    </div>
+
+    <script src="./medium.js"></script>
+</body>
+
+</html>
