@@ -1,6 +1,6 @@
 # Numeron 2.12
 
-- Private project
+- Private project, source code repository for https://ezraar.github.io
 
 CHANGELOG (v2.12)
 - Added sound effects (./assets) for operator buttons.
