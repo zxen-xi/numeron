@@ -1,4 +1,4 @@
-# Numeron 2.12
+# Numeron 2.14
 
 - Private project, source code repository for https://ezraar.github.io/numeron
 
@@ -10,3 +10,6 @@ CHANGELOG (v2.12)
 v2.13
 - Added gameover.wav sound with autoplay attribute.
 - Correctly labelled <title> for each .html file.
+
+v2.14
+- Added a back button.
