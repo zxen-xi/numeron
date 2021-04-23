@@ -2,5 +2,5 @@
 const play = document.getElementById("play-button")
 
 play.onclick = () => {
-    location.href = "./levels.html"
+    location.href = "./gamemode.html"
 }

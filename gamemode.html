@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Numeron - Choose Mode</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="game-cover flex-centered">
+    <a href="index.html">
+        <img src="./assets/backbutton.png" alt="Back Button" height="100px"width="100px">
+    </a>
+
+    <audio id="button-click" src="./assets/pop.wav" preload="auto"></audio> <!--define audio element-->
+    <a onclick="document.getElementById('button-click').play();">
+        <img id="guess-operator-quiz" src="./assets/guess-operator-mode.png" alt="guess-operator-button">
+    </a>
+    <a onclick="document.getElementById('button-click').play();">
+        <img class="play" id="cubes-squares-quiz" src="./assets/squares-cubes-mode.png" height="120px" width="975px" alt="squares-cubes-quiz-button">
+    </a>
+    <script src="./gamemode.js"></script>
+</body>
+
+</html>
