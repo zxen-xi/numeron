@@ -107,7 +107,7 @@ function toggleActive() {
 
     function next(){
         if(question_count == questions.length - 1 ){
-        location.href = "./end.html"
+        location.href = "./cube-end.html"
         }
         
         let user_answer=document.querySelector("li.option.active").innerHTML
