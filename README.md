@@ -1,4 +1,4 @@
-# Numeron 2.14
+# Numeron 2.21
 
 - Private project, source code repository for https://ezraar.github.io/numeron
 
@@ -13,3 +13,10 @@ v2.13
 
 v2.14
 - Added a back button.
+
+v2.2
+- Added gamemode.html for choosing gamemodes.
+- Added a new gamemode, a square/cube quiz.
+
+v2.21 
+- Filesystem messup, patched!
