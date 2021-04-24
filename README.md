@@ -1,4 +1,4 @@
-# Numeron 2.21
+# Numeron 2.14
 
 - Private project, source code repository for https://ezraar.github.io/numeron
 
@@ -13,6 +13,3 @@ v2.13
 
 v2.14
 - Added a back button.
-
-v2.21
-- Added a new gamemode, 10 set questions for a quiz of cubes and cube roots.

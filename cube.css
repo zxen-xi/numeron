@@ -136,3 +136,28 @@
     border: #249DDC;
     border-radius: 3
   }
+
+  @media screen and (max-width:800px) {
+    body{
+       width:100%;
+       
+    }
+    h1 {
+       font-size: 30px;
+     }
+     
+     .option {
+        width: 170px;
+        font-weight: bold;
+        margin-bottom: 40px;
+        padding: 15px 20px;
+        border: 1px solid #ffff;
+        border-radius: 3px;
+      }
+      .option_group {
+        list-style-type: none;
+        margin: 20px 0;
+        display: grid;
+        grid-template-columns: 60% 40%;
+      }
+ }
