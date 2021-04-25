@@ -8,5 +8,5 @@ var playAgainButton = document.getElementById("play-again-button");
 
 scoreBoard.innerHTML = score;
 playAgainButton.onclick = (evt) => {
-  location.href = "./index.html";
+  location.href = "./gamemode.html";
 };
